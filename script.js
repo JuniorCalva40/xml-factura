@@ -60,7 +60,6 @@ document
 
 // Combinar los valores en el número de factura deseado
 function generateInvoice(data, xmlDoc) {
-  const codDoc = xmlDoc.querySelector("codDoc").textContent;
   const estab = xmlDoc.querySelector("estab").textContent;
   const ptoEmi = xmlDoc.querySelector("ptoEmi").textContent;
   const secuencial = xmlDoc.querySelector("secuencial").textContent;
