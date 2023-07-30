@@ -66,7 +66,7 @@ function generateInvoice(data, xmlDoc) {
   const secuencial = xmlDoc.querySelector("secuencial").textContent;
 
   // Combinar los valores en el número de factura deseado
-  const numeroFactura = `FACT. ELECTRONICA No. ${codDoc}-${estab}-${ptoEmi}-${secuencial}`;
+  const numeroFactura = `FACT. ELECTRONICA No. ${estab}-${ptoEmi}-${secuencial}`;
   const invoiceHTML = `
         <div class="invoice">
           <div class="water-logo">
